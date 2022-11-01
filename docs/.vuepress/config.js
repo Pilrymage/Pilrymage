@@ -5,6 +5,7 @@ export default defineUserConfig({
     title: 'Pilrymage\'s Haven',
     description: '主页标题',
     theme: defaultTheme({
+        
         navbar: [
             {
                 text: '冲浪版',
@@ -12,13 +13,23 @@ export default defineUserConfig({
             },
             {
                 text: '科技版',
-                link: '/Technology/',
+                children: [
+                    '/Technology/Basic-Development',
+                    '/Technology/AI-Series',
+                    '/Technology/Cyber-Security',
+                    '/Technology/EDM-Production',
+                    '/Technology/GNU-Linux',
+                    '/Technology/Lisp-Family',
+                    '/Technology/Personal-Server',
+                ],
             },
             {
                 text: '文史版',
-                link: 'Culture',
+                link: '/Culture/',
             },
-        ]
+            
+        ],
+        repo: 'Pilrymage/pilrymage',
     }),
 
 })

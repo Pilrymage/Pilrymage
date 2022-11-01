@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-77266bea","path":"/Technology/","title":"科技版","lang":"en-US","frontmatter":{"lang":"en-US","title":"科技版","description":"Description of this page"},"excerpt":"","headers":[],"git":{"updatedTime":1666796845000,"contributors":[{"name":"Pilrymage","email":"156th@pilrymage.xyz","commits":1}]},"filePathRelative":"Technology/README.md"}');export{e as data};

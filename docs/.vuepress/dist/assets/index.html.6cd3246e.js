@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-52c497a5","path":"/Memes/","title":"冲浪版","lang":"en-US","frontmatter":{"lang":"en-US","title":"冲浪版","description":"Description of this page"},"excerpt":"","headers":[],"git":{"updatedTime":1666796845000,"contributors":[{"name":"Pilrymage","email":"156th@pilrymage.xyz","commits":1}]},"filePathRelative":"Memes/README.md"}');export{e as data};
