@@ -8,6 +8,10 @@ export default defineUserConfig({
         
         navbar: [
             {
+                text: '图书推荐',
+                link: '/Misc/Books'
+            },
+            {
                 text: '冲浪版',
                 link: '/Memes/',
             },
